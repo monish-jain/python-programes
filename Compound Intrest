@@ -1,0 +1,7 @@
+def ci(p,r,t):
+    a = p*((1+r)/100)**t
+    return a-p
+principal = int(input('enter principal'))
+rate = int(input('enter rate'))
+time = int(input('enter time'))
+print('Compound Intrest is',ci(principal,rate,time))
