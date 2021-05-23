@@ -1,0 +1,8 @@
+def si(p,t,r):
+    si = (p*t*r)/100
+    return si
+
+principal = float(input('enter principal'))
+time = float(input('enter time'))
+rate = float(input('enter rate'))
+print('the simple intrest is ',si(principal,time,rate) )    
